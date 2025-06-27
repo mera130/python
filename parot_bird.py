@@ -7,6 +7,19 @@ class Parrot:
      self.name = name
      self.age = age
 
+    # instance method
+    def sing(self,song):
+        return"{} sing {}".format(self.name, song)
+    def dance(self,dance):
+        return"{} dances".format(self.name,) 
+
+ blu parrot("blu", 10)
+
+print( blu.sing("summertime sadness")) 
+print(blu.dances())
+
+
+
 
 # instace of parrot
 
