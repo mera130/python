@@ -79,11 +79,11 @@ def addcontact(pb):
             
         if i == 1:
             dip.append(int(input("enter a phone number")))
-        for i == 2:
+        if i == 2:
             dip.append(str(input("enter an email address")))
-        for i == 3:
+        if i == 3:
             dip.append(str(input("enter date of birth dd/mm/yy")))
-        for i == 4:
+        if i == 4:
             dip.append(str(input("category family/friend/others")))
     
     pb.append(dip)
