@@ -2,7 +2,6 @@ def run_quiz():
     print("Welcome to the astronomy Quiz!")
     print("Please answer the following questions:")
     
-    # Initialize score
     score = 0
     
     # Question 1
