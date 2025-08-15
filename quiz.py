@@ -9,15 +9,15 @@ def run_quiz():
     print("a) saturn")
     print("b) jupiter")
     print("c) earth")
-    print("d)  the Sun")
+    print("d) the Sun")
     answer1 = input("Your answer (a/b/c/d): ").lower()
     if answer1 == "b":
         print("Correct!")
         score += 1
     else:
-        print("Incorrect! The correct answer is b) Paris")
+        print("Incorrect! The correct answer is b) Jupiter")  
     
-       # Question 2
+    # Question 2
     print("\n2. Which planet is known as the Red Planet?")
     print("a) Venus")
     print("b) Mars")
@@ -30,8 +30,8 @@ def run_quiz():
     else:
         print("Incorrect! The correct answer is b) Mars")
     
-     # Question 3
-    print("\n3. what is our neighboring galaxy?")
+    # Question 3
+    print("\n3. What is our neighboring galaxy?")
     print("a) black eye galaxy")
     print("b) condor galaxy")
     print("c) andromeda galaxy")
@@ -41,9 +41,10 @@ def run_quiz():
         print("Correct!")
         score += 1
     else:
-        print("Incorrect! The correct answer is c) 12")
+        print("Incorrect! The correct answer is c) Andromeda Galaxy") 
     
-    # final score
-    print(f"\n congrats!! your Quiz is completed! Your final score is: {score}/3")
+    # Final score
+    print(f"\nCongrats!! Your quiz is completed! Your final score is: {score}/3")
     return score
-    
+
+run_quiz()
