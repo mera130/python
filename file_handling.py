@@ -1,6 +1,6 @@
 # open the file in read mode
 file_read = open('sample.txt', 'r')
-print("File in Read Mode -")
+print("File in Read Mode ")
 print(file_read.read())
 file_read.close()
 
