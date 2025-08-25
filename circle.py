@@ -26,6 +26,5 @@ def circle_calculator():
     except ValueError:
         print("Error: Please enter a valid number.")
 
-# Run the calculator
 if __name__ == "__main__":
     circle_calculator()
